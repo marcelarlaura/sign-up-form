@@ -22,7 +22,14 @@
                     benefits!<br>
                     Let's get started:
                 </div>
-                <div></div>
+                <div>
+                    <label for="first-name">FIRST NAME <br><input type="text" id="first-name" name="first-name" placeholder="Francisco" pattern="[a-zA-Z]+" required title="Please enter alphabet characters only"></label>
+                    <label for="surname">LAST NAME <br><input type="text" id="surname" name="surname" placeholder="Ortega" pattern="[a-zA-Z]+" required title="Please enter alphabet characters only"></label>
+                    <label for="email">EMAIL <br><input type="email" id="email" name="email" placeholder="francis_85@example.com" required></label>
+                    <label for="telephone">PHONE NUMBER <br><input type="tel" id="telephone" name="telephone" placeholder="3153654568" pattern="[0-9]{10}" title="Please enter ten digits"></label>
+                    <label for="password">PASSWORD <br><input type="password" id="password" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{7,}$" title="Your password must have: at least seven characters in total, one lowercase (a-z) and one uppercase (A-Z) alphabetic character, one numeric (0-9) value, and one special symbol ($%^&*?/_-@!)" required></label>
+                    <label for="confirm-pass">CONFIRM PASSWORD <br><input type="password" id="confirm-pass" name="confirm-pass" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{7,}$" title="Your password must have: at least seven characters in total, one lowercase (a-z) and one uppercase (A-Z) alphabetic character, one numeric (0-9) value, and one special symbol ($%^&*?/_-@!)" required></label>
+                </div>
                 <div>
                     <button type="submit">Create Account</button>
                     <p>Already have an account? <em>Log in</em></p>
