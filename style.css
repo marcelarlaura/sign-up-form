@@ -16,7 +16,7 @@ body{
 }
 
 .big-container{
-    background-color: #e7e5e5;
+    background-color: #f0eeee;
     width: 60vw;
     height: 100vh;
     margin: auto;
@@ -57,5 +57,26 @@ body{
 
 .form-part{
     width:60%;
+    display:flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.form-part div{
+    height: 33%;
+}
+
+.form-part div:nth-child(2){
+    background-color: aliceblue;
+    box-shadow: 0 5px 2px 0 rgba(83, 83, 83, 0.062);
+    border-radius: 5px;
+}
+
+.form-part div:first-of-type{
+    font-size:larger;
+    font-weight: bold;
+    padding: 150px 50px;
+    line-height: 1.6;
+    
+
+}
